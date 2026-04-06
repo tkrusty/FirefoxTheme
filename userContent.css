@@ -12,10 +12,6 @@
   }
 
   /* Search */
-  .search-inner-wrapper {
-  border-radius: 0px !important;
-  box-shadow: 0 1px 4px 0 rgba(12, 12, 13, 0.2), 0 0 0 1px rgba(0, 0, 0, 0.15) !important;
-  }
   .search-handoff-button {
     border-radius: 0px !important;
   }
@@ -42,6 +38,17 @@
     background-Size: 134px !important;
     width: 134px !important;
   }
+  
+  /* Shortcuts */
+  .top-site-outer {
+    border: none !important;
+  }
+  
+  /* Settings button remove border */
+  .personalize-button {
+    border: none !important;
+  }
+  
 }
 
 
@@ -75,6 +82,3 @@
     background-Size: 134px !important;
   }
 }
-
-
-
