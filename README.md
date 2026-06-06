@@ -5,6 +5,9 @@
 
 ### Setup
 
+> [!NOTE] 
+> Theme only works with Floorp and the 'Lepton' Interface, as that is my main Browser now.
+
 1. Enable Settings (in about:config):
     ```
     toolkit.legacyUserProfileCustomizations.stylesheets	(to enable userChrome and userContent)
@@ -19,6 +22,3 @@
 3. Create a **chrome** folder
 
 4. paste files into the **chrome** folder
-
-### Floorp
-* Replace the userChrome.css and userContent.css with the one inside the Floorp folder, copy the Floorp\images into the images folder

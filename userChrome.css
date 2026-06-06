@@ -223,9 +223,11 @@ findbar {
 /** ----------------------------- Custom Searchbar ----------------------------- **/
 :root[sizemode="maximized"] {
   --searchbar-offset: 39px !important;
+  --urlbar-container-height: 39px !important;
 }
 :root[sizemode="normal"] {
   --searchbar-offset: 40px !important; /* Bigger since windows adds a border of 1px, which would offset the searchbar */
+  --urlbar-container-height: 40px !important;
 }
 
 /* center search text and icon */
@@ -235,6 +237,7 @@ findbar {
 
 #urlbar {
   caret-color: var(--search-caret-color);	/* Carret Color */
+  padding-bottom: 2px !important;
 }
 
 .urlbar-background {
