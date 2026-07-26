@@ -27,7 +27,7 @@
 
   --toolbar-background: rgb(35, 40, 38);
   --toolbar-text: rgb(159, 161, 160);  /* Close/Minimize/Maximize Button color */
-  
+  --toolbar-text-color: rgb(255, 255, 255) !important; /* Bookmark Text Color */
 	
   /* Firefox Variables */
   /*--toolbar-bgcolor: rgb(167, 44, 78) !important;*/					/* Toolbar Background color */
@@ -90,6 +90,7 @@
   --arrowpanel-border-color: rgba(0,0,0, 0.4) !important;  /* Border color around Panels */
   
   --urlbar-height: unset !important;
+  --urlbarview-border-radius: 0px !important;
 
   /* Floorp Only: remove if used on normal Firefox */
   --urlbar-width: 100%;
