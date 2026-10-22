@@ -236,6 +236,10 @@ findbar {
     margin-top: 2px !important;
 }
 
+.urlbar-container {
+    padding-block: 8px !important;
+}
+
 #urlbar {
   caret-color: var(--search-caret-color);	/* Carret Color */
   padding-bottom: 2px !important;
@@ -243,6 +247,13 @@ findbar {
 
 .urlbar-background {
   background: var(--search-current-active) !important; /* Selected Searchbar color */
+
+  .urlbar:not([open]) > & {
+    margin: -5px !important;
+  }
+  .urlbar[open] > & {
+    margin: -1px !important;
+  }
 }
 
 /* Change Color For Search Results */
